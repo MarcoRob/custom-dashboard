@@ -22,7 +22,7 @@ export default class SearchMenu extends React.Component {
             <nav id="search-bar">
                 <div className="nav-wrapper white">
                     <div className="row">
-                        <div className="col s4" >
+                        <div className="col s3" >
                             <div className="row" id="topbarsearch">
                                 <div className="input-field col s6 s12 black-text">
                                     <i className="black-text material-icons prefix">search</i>
@@ -30,7 +30,7 @@ export default class SearchMenu extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col s5">
+                        <div className="col s6">
                             <ul className="">
                                 <li className="active"><a href="#" className="black-text">Todo</a></li>
                                 <li>
@@ -54,11 +54,11 @@ export default class SearchMenu extends React.Component {
                                 {this.dropMensualOptions()}
                             </ul>
                         </div>
-                        <div className="col s3">
+                        <div className="col s3 center-align">
                             <div className="right">
                                 <div>
                                     <a className="btn btn-medium update-sat waves-effect no-text-transform" >
-                                        <i id="refresh-button" className="material-icons">refresh</i> Actualizar SAT  
+                                        Actualizar SAT 
                                     </a>
                                 </div>
                                 
