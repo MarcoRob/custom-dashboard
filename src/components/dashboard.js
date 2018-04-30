@@ -24,7 +24,7 @@ export default class Dashboard extends React.Component {
                                 <div className="col s4 v-divider">
                                     <div class="c100 p63 medium teal-fill">
                                         <span>63%</span>
-                                        <div class="slice">
+                                        <div class="slice"> 
                                             <div class="bar"></div>
                                             <div class="fill"></div>
                                         </div>

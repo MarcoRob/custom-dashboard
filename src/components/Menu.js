@@ -11,7 +11,7 @@ export default class Menu extends React.Component {
         return (
             <nav className="max-bar">
                 <div className="nav-wrapper white">
-                    <div className="logo black-text">debitum</div>
+                    <div className="logo black-text">debitum<i class="material-icons teal-text darken-3 left">polymer</i></div>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li>
                         <a id="cuenta_bancaria" className='dropdown-trigger white blue-grey-text btn btn-large no-text-transform' data-target='bankAccounts'>

@@ -56,9 +56,12 @@ export default class SearchMenu extends React.Component {
                         </div>
                         <div className="col s3">
                             <div className="right">
-                                <button className="btn btn-medium update-sat waves-effect no-text-transform" >
-                                    <i id="refresh-button" className="material-icons">refresh</i> Actualizar SAT  
-                                </button>
+                                <div>
+                                    <a className="btn btn-medium update-sat waves-effect no-text-transform" >
+                                        <i id="refresh-button" className="material-icons">refresh</i> Actualizar SAT  
+                                    </a>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
